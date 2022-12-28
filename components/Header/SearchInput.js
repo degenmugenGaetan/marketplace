@@ -13,7 +13,7 @@ const SearchInput = () => {
       <input
         className={style.input}
         type='text'
-        placeholder='Search items, collections, and accounts'
+        placeholder='Search items'
       />
     </div>
   )

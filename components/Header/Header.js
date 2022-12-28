@@ -8,7 +8,7 @@ import {
   SunIcon,
 } from '@heroicons/react/outline'
 import { UserCircleIcon } from '@heroicons/react/solid'
-import SearchInput from './SearchInput'
+// import SearchInput from './SearchInput'
 import NavMenus from './NavMenus'
 import Link from 'next/link'
 import { useTheme } from 'next-themes'
@@ -47,22 +47,22 @@ const Navbar = () => {
   }
 
   const menus = [
-    {
-      name: 'Explore',
-      href: '#',
-    },
-    {
-      name: 'Stats',
-      href: '#',
-    },
-    {
-      name: 'Resources',
-      href: '#',
-    },
-    {
-      name: 'Create',
-      href: '#',
-    },
+    // {
+    //   name: 'Explore',
+    //   href: '#',
+    // },
+    // {
+    //   name: 'Stats',
+    //   href: '#',
+    // },
+    // {
+    //   name: 'Resources',
+    //   href: '#',
+    // },
+    // {
+    //   name: 'Create',
+    //   href: '#',
+    // },
   ]
 
   const style = {
@@ -89,7 +89,7 @@ const Navbar = () => {
       </div>
 
       <div className={style.searchContainer}>
-        <SearchInput />
+        {/* <SearchInput /> */}
       </div>
 
       <div className={style.menusContainer}>
@@ -97,8 +97,8 @@ const Navbar = () => {
       </div>
 
       <div className={style.iconsContainer}>
-        <UserCircleIcon className={`${style.icons} ${style.desktopIcons}`} />
-        <CreditCardIcon className={`${style.icons} ${style.desktopIcons}`} />
+        {/* <UserCircleIcon className={`${style.icons} ${style.desktopIcons}`} />
+        <CreditCardIcon className={`${style.icons} ${style.desktopIcons}`} /> */}
         {renderThemeChanger()}
         <SearchIcon className={`${style.icons} ${style.mobileIcons}`} />
         <MenuIcon className={`${style.icons} ${style.tabletIcons}`} />
