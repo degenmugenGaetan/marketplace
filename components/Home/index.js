@@ -12,7 +12,7 @@ const style = {
   wrapper: `flex flex-col dark:bg-[#202226] relative flex flex-col`,
   container: `relative flex h-[650px] flex-col`,
   bannerContainer: `absolute h-1/3 w-full`,
-  banner: `rounded-t-lg object-cover`,
+  banner: `object-cover`,
   collectionInfoWrapper: `absolute inset-0 top-1/3 z-10 h-2/3 -translate-y-16`,
   collectionInfoContainer: `flex flex-col items-center space-y-4`,
   collectionLogoContainer: `flex items-center justify-center rounded border-4 border-gray-100`,

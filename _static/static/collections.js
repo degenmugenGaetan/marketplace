@@ -1,4 +1,4 @@
-import banner from '../assets/banner.png'
+import banner from '../assets/banner.jpg'
 import logo from '../assets/logo.png'
 
 export const collectionData = {
