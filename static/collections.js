@@ -1,5 +1,5 @@
-import banner from '../assets/banner.jpg'
-import logo from '../assets/logo.png'
+import banner from '../public/banner.jpg'
+import logo from '../public/logo.png'
 
 export const collectionData = {
   name: 'DegenMugen',
