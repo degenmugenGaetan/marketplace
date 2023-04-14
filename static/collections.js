@@ -15,5 +15,5 @@ export const collectionData = {
     floor_price: 0,
   },
   creator: "Gaëtan",
-  address: '0x8a90cab2b38dba80c64b7734e58ee1db38b8992e',
+  address: '0xfCFb91C30f51e54C532C97c98f966ba4C5a87b07',
 }

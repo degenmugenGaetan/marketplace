@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "**",
-      },
+    domains: [
+      'gateway.ipfscdn.io',
+      // ...add other domains if needed
     ],
   },
-}
+};
 
-module.exports = nextConfig
+
